@@ -138,12 +138,38 @@ body{
         height: 40px;
     }
 
-    .roadmap{
+    .what{
         position: relative;
         z-index: 999;
         width: 90vw;
         left: 4vw;
         top: 250px;
+    }
+
+    .visi{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 300px;
+    }
+
+    .vbox{
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .roadmap{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 350px;
     }
 
     .roadmap p{
@@ -160,7 +186,7 @@ body{
         z-index: 999;
         width: 100vw;
         left: -8px;
-        top: 300px;
+        top: 450px;
         background-color: black;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -297,7 +323,6 @@ body{
     padding: 20px 30px;
     background-color: white;
     position: relative;
-    border-radius: 6px;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */

@@ -194,9 +194,44 @@ body{
         text-decoration: none;
     }
 
-    .roadmap{
+    .what{
         position: relative;
         top: 100vh;
+        z-index: 999;
+        width: 90vw;
+        left: 3vw;
+        padding: 20px;
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.74);
+        font-weight: bolder;
+    }
+
+    .visi{
+        position: relative;
+        top: 110vh;
+        z-index: 999;
+        width: 90vw;
+        left: 3vw;
+        padding: 20px;
+        border-radius: 30px;
+        vertical-align:top
+    }
+
+    .vbox{
+        position: relative;
+        display: inline-table;
+        width: 30%;
+        margin-right: 10px;
+        height: 250px;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .roadmap{
+        position: relative;
+        top: 120vh;
         z-index: 999;
         width: 90vw;
         left: 4vw;
@@ -309,7 +344,7 @@ body{
   /* Place the container to the right */
   .right {
     left: 50%;
-    text-align: right;
+    text-align: left;
   }
 
   .timeline li{
@@ -351,10 +386,10 @@ body{
   
   /* The actual content */
   .content {
-    padding: 20px 30px;
+    padding: 10px 30px;
+    padding-bottom: 20px;
     background-color: white;
     position: relative;
-    border-radius: 6px;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
